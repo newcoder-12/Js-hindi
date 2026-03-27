@@ -24,3 +24,7 @@ const trimStringOne = "  nehal  "   // *** Trims the extra Space ***
 // console.log(trimStringOne);
 // console.log(trimStringOne.trim());
 
+const url = "https://nehal.com/nehal%20khan"
+// console.log(url.replace('%20' , '_'));
+
+// console.log(url.includes('yashmin'));   // **false**
