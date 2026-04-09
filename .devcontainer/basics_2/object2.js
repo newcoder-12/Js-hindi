@@ -48,10 +48,14 @@ const course = {
 }
 
 //Typing all time same instruction .. we define " const{} = "give value we want to extract from"
-// const {courseInstructor} = course   normal structure 
 
+// const {courseInstructor} = course   normal structure 
 const { courseInstructor : instructor} = course  // ** course destructure ** 
 console.log(instructor);
 
 
 
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "Nehal")
