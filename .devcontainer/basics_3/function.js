@@ -23,4 +23,31 @@ function loginUserMessage(username) {
 }
 
 loginUserMessage("Nehal") // wont get print cause we havent called it , this is were begginer makes mistakes
-console.log(loginUserMessage())
+// console.log(loginUserMessage());
+
+
+
+// ********************    ************************
+// ...num1 is called spread  operator and rest operator as well
+function calculateCartPrice(...num1){
+return num1
+}
+
+// console.log(calculateCartPrice(500, 524, 400));
+
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and Price is ${anyObject.price}`);
+}
+
+handleObject({
+    username : "Nehal",
+    price : 299
+})
+
+const newArray = [100, 500, 644, 511]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+    console.log(returnSecondValue(newArray));
