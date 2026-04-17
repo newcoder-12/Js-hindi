@@ -1,0 +1,11 @@
+const user = {
+    username : "nehal",
+    price : 999,
+
+    welcomeMessage : function(){
+        console.log(`${this.username},Welcome to the website`)     
+        console.log(this);
+    }
+}
+
+user.welcomeMessage()
